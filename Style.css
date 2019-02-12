@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+a.cover {
+   background-image: url(http://bgfons.com/uploads/books/books_texture3035.jpg);
+   background-repeat: no-repeat;
+   background-size: contain;
+   width: 100%;
+   height: 100%;
+   display: block;
+   background-color: rgba(7, 7, 7, 1);
+   background-position: 50% 50%;
+} 
+html {
+    height: 97%;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-position: 50% 50%;
+    background-image: url(https://wallpapera.ru/images/trueimg/originals/19/3AC36E19518F-19.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+div.toc {
+    font-size: 18pt;
+    padding: 7%;
+    margin: 10px auto;
+    background-color: rgba(255, 255, 255, 0.726);
+    display: inline-block;
+    border-radius: 10px;
+    filter: drop-shadow(20px 20px 6px rgba(0, 0, 0, 0.637))
+}
+body {
+    padding: 10%;
+    font-size: 20pt;
+}
+h1 {
+    border-radius: 5px;
+    background-color: blueviolet;
+    padding: 25px;
+    margin: 25px;
+    border-bottom: 5px dashed red;
+}
+a.toc {
+    background-color: chartreuse;
+    border: 5px dashed red;
+}
+a.toc:hover {
+    background-color: blue;
+    border: 5px dashed gold;
+    background-image: url(http://fan.lib.ru/img/s/shumil_p/text_0010-008/dr08.jpg)
+}
