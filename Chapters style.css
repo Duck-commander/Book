@@ -1,0 +1,22 @@
+body {
+    padding: 10%;
+    font-size: 15pt;
+}
+h1 {
+     background-color: rgba(255, 255, 255, 0.726);
+    filter: drop-shadow(20px 20px 6px rgba(0, 0, 0, 0.637));
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.562);
+    padding: 25px;
+    margin: 25px;
+    border-bottom: 5px red;
+}
+a.toc {
+    background-color: chartreuse;
+    border: 5px dashed red;
+}
+a.toc:hover {
+    background-color: blue;
+    border: 5px dashed gold;
+    background-image: url(http://fan.lib.ru/img/s/shumil_p/text_0010-008/dr08.jpg)
+}
