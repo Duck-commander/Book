@@ -1,14 +1,21 @@
 body {
-    padding: 10%;
+    padding: 3%;
     font-size: 15pt;
 }
+div {
+    font-size: auto;
+    padding: 5%;
+    margin: 10px;
+    display: inline-block;
+    width: auto;
+}
 h1 {
-     background-color: rgba(255, 255, 255, 0.726);
+    background-color: rgba(255, 255, 255, 0.726);
     filter: drop-shadow(20px 20px 6px rgba(0, 0, 0, 0.637));
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.562);
-    padding: 25px;
-    margin: 25px;
+    padding: 2%;
+    margin: 2%;
     border-bottom: 5px red;
 }
 a.toc {
